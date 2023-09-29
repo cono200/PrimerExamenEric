@@ -63,10 +63,10 @@ namespace ExamenEric_SLE
 
             if (numero2 ==0)
             {
-                return numero2;
+                return 1;
             }
 
-            return  numero2  * TablasMultiplicar(numero2 -1);
+            return   numero2 * TablasMultiplicar(numero2 -1);
         }
 
 
